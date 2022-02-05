@@ -10,6 +10,7 @@ from models.state import State
 
 app = Flask(__name__)
 
+
 @app.route('/', strict_slashes=False)
 def hello():
     '''returns a hello message'''
