@@ -16,6 +16,9 @@ import sqlalchemy
 from sqlalchemy import create_engine
 from sqlalchemy.orm import scoped_session, sessionmaker
 
+if getenv('HBNB_TYPE_STORAGE') == 'db':
+    from models.place import place_amenity
+
 classes = {"Amenity": Amenity, "City": City,
            "Place": Place, "Review": Review, "State": State, "User": User}
 
