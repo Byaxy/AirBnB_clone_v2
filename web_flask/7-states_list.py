@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """
 starts a Flask web application
+AirBnB clone - Web framework
 """
 
 from flask import Flask, escape, render_template
