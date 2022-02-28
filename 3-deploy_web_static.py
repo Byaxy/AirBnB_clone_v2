@@ -6,8 +6,7 @@ from fabric.contrib import files
 from datetime import datetime
 import os
 
-api.env.hosts = ['holberton1', 'holberton3']
-api.env.hosts = ['142.44.167.235', '144.217.246.199']
+api.env.hosts = ['35.231.28.215', '3.237.19.176']
 api.env.user = 'ubuntu'
 api.env.key_filename = '~/.ssh/holberton'
 
